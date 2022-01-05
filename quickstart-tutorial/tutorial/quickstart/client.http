@@ -1,0 +1,20 @@
+GET http://127.0.0.1:8000/users/ -u adimn:hubbajubba123
+{
+    "count": 2,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "email": "admin@example.com",
+            "groups": [],
+            "url": "http://localhost:8000/users/1/",
+            "username": "paul"
+        },
+        {
+            "email": "tom@example.com",
+            "groups": [],
+            "url": "http://127.0.0.1:8000/users/2/",
+            "username": "tom"
+        }
+    ]
+}
